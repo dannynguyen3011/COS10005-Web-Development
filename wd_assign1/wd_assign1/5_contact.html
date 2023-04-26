@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assignment 1</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Web Development">
+    <meta name="keywords" content="Assignment 1">
+    <meta name="author" content="Nguyen Manh Dung">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style/CSS_desktop.css" rel="stylesheet" type="text/css">
+    <link href="style/CSS_mobile.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/f73039f1ad.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+    <header>
+        <div><a href="1_homepage.html"><img src="image/namelogo.png" alt="Nguyen Manh Dung Logo"></a></div>
+    </header>
+
+    <nav class="horizontal-nav">
+        <ul>
+            <li><a href="1_homepage.html"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="2_about.html" style="font-weight: bold;">About</a></li>
+            <li><a href="3_hometown.html">Hometown</a></li>
+            <li><a href="4_swin_weekly_timetable.html">Swinburne timetable</a></li>
+            <li><a href="5_contact.html">Contact</a></li>
+            <li><a href="0_animations.html">CSS Animation</a>
+        </ul>
+    </nav>
+
+    <main id="maincontact">
+        <h2>CONTACT</h2>
+        <hr>
+
+        <div class="row">
+            <div class="column2 left">
+                <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SOCIAL MEDIA</h3>
+                <aside><img class="img" src="image/photos/6.jpg" alt="photos"></aside>
+                <ul class="contact-ul">
+                   
+                    <li><i class="fa-brands fa-facebook-f"></i> Facebook: <a href="https://facebook.com/dungoc3011/"
+                            target="_blank">Nguyễn Mạnh Dũng</a> <br>
+                        <img class="qrcode" src="image/facebookqrcode.png" alt="Nguyen Manh Dung Facebook QR Code">                
+                    </li>
+                    
+                    <li><i class="fa-brands fa-instagram"></i> Instagram: <a href="https://instagram.com/gnudnolimit/"
+                            target="_blank">gnudnolimit</a>
+                        <br>
+                        <img class="qrcode" src="image/instagramqrcode.png" alt="Nguyen Manh Dung Instagram QR Code"> <br>
+                    </li>
+                  
+                    <li><i class="fa-brands fa-github"></i> Github: <a href="https://github.com/dannynguyen3011"
+                            target="_blank">Danny Nguyen</a>
+                    </li>
+                </ul>
+
+
+                <br>
+
+                <h3>EMAIL</h3>
+
+                <ul class="contact-ul">
+                    <li><i class="fa-solid fa-envelope-open-text"></i> <a
+                            href="mailto:dungnguyen15482@gmail.com">dungnguyen15482@gmail.com</a></li>
+                </ul>
+
+
+                <br>
+
+                <h3>PHONE/ ZALO</h3>
+
+                <ul class="contact-ul">
+                    <li><i class="fa-solid fa-phone"></i> <a href="tel:+84984841797">(+84)984 84 1797</a></li>
+                </ul>
+
+
+            </div>
+
+            <div class="column2 right">
+                <h3>DIRECT MESSAGE</h3>
+                <form id="message" method="post" action="http://mercury.swin.edu.au/it000000/cos10005/surveytest.php">
+
+                    <fieldset>
+                        <legend><b>Your basic information</b></legend>
+                        <p>
+                            <label for="tbName"><i class="fa-regular fa-user"></i> Name:</label>
+                            <input type="text" id="tbName" placeholder=" Your name" required="required" pattern="[a-zA-Z ]+$"
+                                style="background-color: #F4EEEC">
+                            <br><br>
+                            <label for="tbEmail"><i class="fa-regular fa-envelope"></i> Email:</label>
+                            <input type="email" id="tbEmail" placeholder=" abc123@gmail.com" required="required"
+                                style="background-color: #F4EEEC">
+                        </p>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend><b>Write me a message</b></legend>
+
+                        <p>
+                            <textarea name="message" placeholder="Type your message" required="required"
+                                style="background-color: #F4EEEC"></textarea>
+                        </p>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+                        <p>
+                            <input class="inputbutton" type="submit" value="Submit">
+                            <input class="inputbutton" type="reset" value="Clear">
+                        </p>
+                    </fieldset>
+
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="footerhome">
+        <p>
+            <a href="https://facebook.com/dungoc3011/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com/gnudnolimit/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/dannynguyen3011"><i class="fa-brands fa-github"></i></a>
+        </p>
+        <p>&copy; 2023 Manh Dung Nguyen. All right reserved.</p>
+    </footer>
+
+</body>
+
+</html>

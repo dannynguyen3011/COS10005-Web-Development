@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sweet Life</title>
+    <meta charset="utf-8" >
+    <meta name="description" content="Web Development" >
+    <meta name="keywords" content="Assignment 2" >
+    <meta name="author" content="Nguyen Manh Dung" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <link href="css/style.css" rel="stylesheet" type="text/css" >
+    <link href="css/lightslider.css" rel="stylesheet" type="text/css" >
+    <script src="js/jquery.js"></script>
+    <script src="js/lightslider.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" >
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f73039f1ad.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+
+  <body>
+    <!-- ============= START Navigation Bar -->
+
+    <header>
+      <nav class="navbar">
+        <img
+          class="logo"
+          src="images/sweetlifeicecreamlogo.png"
+          alt="Sweet Life Logo"
+        />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a
+              href="menu.html"
+              style="
+                background-color: #7882a4;
+                color: #fef5ed;
+                padding: 0.5em;
+                border-radius: 10px;
+              "
+              >Menu</a
+            >
+          </li>
+          <li><a href="features.html">Features</a></li>
+        </ul>
+        <div>
+          <a href="order.html" class="nav-button"
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></a>
+          <a href="login.html" class="nav-button"
+            ><i class="fa-solid fa-user"></i
+          ></a>
+        </div>
+      </nav>
+    </header>
+
+    <hr />
+
+    <!-- END Navigation Bar -->
+
+    <main>
+      <div class="menu-category">
+        <h2 id="icecream-menu">
+          <i class="fa-solid fa-mug-saucer"></i> ICECREAMS
+        </h2>
+
+        <ul class="autoWidth" class="cs-hidden">
+          <!-- icecream-item-1 -->
+          <li class="item-a">
+            <!-- box slider -->
+            <div class="slider-container">
+              <!-- image box -->
+              <div class="slide-img">
+                <img
+                  src="images/icecreamlist/1.png"
+                  alt="CHOCOLATE CHIPS ICECREAM"
+                />
+                <!-- overlay -->
+                <div class="overlay-menu">
+                  <!-- buy-btn -->
+                  <a href="order.html" class="buy-btn">ADD TO CART</a>
+                </div>
+              </div>
+              <!-- detail box -->
+              <div class="detail-box">
+                <!-- type -->
+                <div class="type">
+                  <a href="order.html">CHOCOLATE CHIPS ICECREAM</a>
+                </div>
+                <!-- price -->
+                <a href="order.html" class="price">$8.60</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- icecream-item-2 -->
+          <li class="item-b">
+            <!-- box slider -->
+            <div class="slider-container">
+              <!-- image box -->
+              <div class="slide-img">
+                <img src="images/icecreamlist/2.png" alt="ESKIMO ICECREAM" />
+                <!-- overlay -->
+                <div class="overlay-menu">
+                  <!-- buy-btn -->
+                  <a href="order.html" class="buy-btn">ADD TO CART</a>
+                </div>
+              </div>
+              <!-- detail box -->
+              <div class="detail-box">
+                <!-- type -->
+                <div class="type">
+                  <a href="order.html">ESKIMO ICECREAM</a>
+                </div>
+                <!-- price -->
+                <a href="order.html" class="price">$5.00</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- icecream-item-3 -->
+          <li class="item-c">
+            <!-- box slider -->
+            <div class="slider-container">
+              <!-- image box -->
+              <div class="slide-img">
+                <img src="images/icecreamlist/3.png" alt="" />
+                <!-- overlay -->
+                <div class="overlay-menu">
+                  <!-- buy-btn -->
+                  <a href="order.html" class="buy-btn">ADD TO CART</a>
+                </div>
+              </div>
+              <!-- detail box -->
+              <div class="detail-box">
+                <!-- type -->
+                <div class="type">
+                  <a href="order.html">HORCHATA ICECREAM</a>
+                </div>
+                <!-- price -->
+                <a href="order.html" class="price">$5.00</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- icecream-item-4 -->
+          <li class="item-d">
+            <!-- box slider -->
+            <div class="slider-container">
+              <!-- image box -->
+              <div class="slide-img">
+                <img
+                  src="images/icecreamlist/4.png"
+                  alt="MOOSE TRACKS ICECREAM"
+                />
+                <!-- overlay -->
+                <div class="overlay-menu">
+                  <!-- buy-btn -->
+                  <a href="order.html" class="buy-btn">ADD TO CART</a>
+                </div>
+              </div>
+              <!-- detail box -->
+              <div class="detail-box">
+                <!-- type -->
+                <div class="type">
+                  <a href="order.html">MOOSE TRACKS ICECREAM</a>
+                </div>
+                <!-- price -->
+                <a href="order.html" class="price">$5.00</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- icecream-item-5 -->
+          <li class="item-e">
+            <!-- box slider -->
+            <div class="slider-container">
+              <!-- image box -->
+              <div class="slide-img">
+                <img
+                  src="images/icecreamlist/5.png"
+                  alt="NEAPOLITAN ICECREAM"
+                />
+                <!-- overlay -->
+                <div class="overlay-menu">
+                  <!-- buy-btn -->
+                  <a href="order.html" class="buy-btn">ADD TO CART</a>
+                </div>
+              </div>
+              <!-- detail box -->
+              <div class="detail-box">
+                <!-- type -->
+                <div class="type">
+                  <a href="order.html">NEAPOLITAN ICECREAM</a>
+                </div>
+                <!-- price -->
+                <a href="order.html" class="price">$5.00</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- icecream-item-6 -->
+          <li class="item-f">
+            <!-- box slider -->
+            <div class="slider-container">
+              <!-- image box -->
+              <div class="slide-img">
+                <img
+                  src="images/icecreamlist/6.png"
+                  alt="ROCKY ROAD ICECREAM"
+                />
+                <!-- overlay -->
+                <div class="overlay-menu">
+                  <!-- buy-btn -->
+                  <a href="order.html" class="buy-btn">ADD TO CART</a>
+                </div>
+              </div>
+              <!-- detail box -->
+              <div class="detail-box">
+                <!-- type -->
+                <div class="type">
+                  <a href="order.html">ROCKY ROAD ICECREAM</a>
+                </div>
+                <!-- price -->
+                <a href="order.html" class="price">$5.00</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- icecream-item-7 -->
+          <li class="item-g">
+            <!-- box slider -->
+            <div class="slider-container">
+              <!-- image box -->
+              <div class="slide-img">
+                <img src="images/icecreamlist/7.png" alt="MANGO ICECREAM" />
+                <!-- overlay -->
+                <div class="overlay-menu">
+                  <!-- buy-btn -->
+                  <a href="order.html" class="buy-btn">ADD TO CART</a>
+                </div>
+              </div>
+              <!-- detail box -->
+              <div class="detail-box">
+                <!-- type -->
+                <div class="type">
+                  <a href="order.html">MANGO ICECREAM</a>
+                </div>
+                <!-- price -->
+                <a href="order.html" class="price">$5.00</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- icecream-item-8 -->
+          <li class="item-h">
+            <!-- box slider -->
+            <div class="slider-container">
+              <!-- image box -->
+              <div class="slide-img">
+                <img
+                  src="images/icecreamlist/8.png"
+                  alt="SALTED CARAMEL ICECREAM"
+                />
+                <!-- overlay -->
+                <div class="overlay-menu">
+                  <!-- buy-btn -->
+                  <a href="order.html" class="buy-btn">ADD TO CART</a>
+                </div>
+              </div>
+              <!-- detail box -->
+              <div class="detail-box">
+                <!-- type -->
+                <div class="type">
+                  <a href="order.html">SALTED CARAMEL ICECREAM</a>
+                </div>
+                <!-- price -->
+                <a href="order.html" class="price">$5.00</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="menu-category">
+        <h2 id="dessert-menu">
+          <i class="fa-solid fa-cookie-bite"></i> DESSERTS
+        </h2>
+
+        <ul class="autoWidth" class="cs-hidden">
+          <!-- dessert-item-1 -->
+          <li class="item-a">
+            <!-- box slider -->
+            <div class="slider-container">
+              <!-- image box -->
+              <div class="slide-img">
+                <img src="images/dessertlist/1.png" alt="TIRAMISU" />
+                <!-- overlay -->
+                <div class="overlay-menu">
+                  <!-- buy-btn -->
+                  <a href="order.html" class="buy-btn">ADD TO CART</a>
+                </div>
+              </div>
+              <!-- detail box -->
+              <div class="detail-box">
+                <!-- type -->
+                <div class="type">
+                  <a href="order.html">TIRAMISU</a>
+                </div>
+                <!-- price -->
+                <a href="order.html" class="price">$2.50</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- dessert-item-2 -->
+          <li class="item-b">
+            <!-- box slider -->
+            <div class="slider-container">
+              <!-- image box -->
+              <div class="slide-img">
+                <img
+                  src="images/dessertlist/2.png"
+                  alt="CINNAMON-HONEY CREME BRULEE"
+                />
+                <!-- overlay -->
+                <div class="overlay-menu">
+                  <!-- buy-btn -->
+                  <a href="order.html" class="buy-btn">ADD TO CART</a>
+                </div>
+              </div>
+              <!-- detail box -->
+              <div class="detail-box">
+                <!-- type -->
+                <div class="type">
+                  <a href="order.html">CINNAMON-HONEY CREME BRULEE</a>
+                </div>
+                <!-- price -->
+                <a href="order.html" class="price">$5.00</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- dessert-item-3 -->
+          <li class="item-c">
+            <!-- box slider -->
+            <div class="slider-container">
+              <!-- image box -->
+              <div class="slide-img">
+                <img src="images/dessertlist/3.png" alt="ANZAC BISCUITE" />
+                <!-- overlay -->
+                <div class="overlay-menu">
+                  <!-- buy-btn -->
+                  <a href="order.html" class="buy-btn">ADD TO CART</a>
+                </div>
+              </div>
+              <!-- detail box -->
+              <div class="detail-box">
+                <!-- type -->
+                <div class="type">
+                  <a href="order.html">ANZAC BISCUIT</a>
+                </div>
+                <!-- price -->
+                <a href="order.html" class="price">$5.00</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- dessert-item-4 -->
+          <li class="item-d">
+            <!-- box slider -->
+            <div class="slider-container">
+              <!-- image box -->
+              <div class="slide-img">
+                <img
+                  src="images/dessertlist/4.png"
+                  alt="AMARETTO APPLE STREUSEL CUPCAKE"
+                />
+                <!-- overlay -->
+                <div class="overlay-menu">
+                  <!-- buy-btn -->
+                  <a href="order.html" class="buy-btn">ADD TO CART</a>
+                </div>
+              </div>
+              <!-- detail box -->
+              <div class="detail-box">
+                <!-- type -->
+                <div class="type">
+                  <a href="order.html"
+                    >AMARETTO APPLE STREUSEL CUPCAKE</a
+                  >
+                </div>
+                <!-- price -->
+                <a href="order.html" class="price">$4.00</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="menu-category">
+        <h2 id="smoothie-menu"><i class="fa-solid fa-leaf"></i> SMOOTHIES</h2>
+
+        <ul class="autoWidth" class="cs-hidden">
+          <!-- smoothie-item-1 -->
+          <li class="item-a">
+            <!-- box slider -->
+            <div class="slider-container">
+              <!-- image box -->
+              <div class="slide-img">
+                <img
+                  src="images/smoothielist/1.png"
+                  alt="BLUEBERRY BANANA SMOOTHIE"
+                />
+                <!-- overlay -->
+                <div class="overlay-menu">
+                  <!-- buy-btn -->
+                  <a href="order.html" class="buy-btn">ADD TO CART</a>
+                </div>
+              </div>
+              <!-- detail box -->
+              <div class="detail-box">
+                <!-- type -->
+                <div class="type">
+                  <a href="order.html">BLUEBERRY BANANA SMOOTHIE</a>
+                </div>
+                <!-- price -->
+                <a href="order.html" class="price">$6.50</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- smoothie-item-2 -->
+          <li class="item-b">
+            <!-- box slider -->
+            <div class="slider-container">
+              <!-- image box -->
+              <div class="slide-img">
+                <img
+                  src="images/smoothielist/2.png"
+                  alt="PERFECT BERRY SMOOTHIE"
+                />
+                <!-- overlay -->
+                <div class="overlay-menu">
+                  <!-- buy-btn -->
+                  <a href="order.html" class="buy-btn">ADD TO CART</a>
+                </div>
+              </div>
+              <!-- detail box -->
+              <div class="detail-box">
+                <!-- type -->
+                <div class="type">
+                  <a href="order.html">PERFECT BERRY SMOOTHIE</a>
+                </div>
+                <!-- price -->
+                <a href="order.html" class="price">$6.50</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- smoothie-item-3 -->
+          <li class="item-c">
+            <!-- box slider -->
+            <div class="slider-container">
+              <!-- image box -->
+              <div class="slide-img">
+                <img src="images/smoothielist/3.png" alt="PINEAPPLE SMOOTHIE" />
+                <!-- overlay -->
+                <div class="overlay-menu">
+                  <!-- buy-btn -->
+                  <a href="order.html" class="buy-btn">ADD TO CART</a>
+                </div>
+              </div>
+              <!-- detail box -->
+              <div class="detail-box">
+                <!-- type -->
+                <div class="type">
+                  <a href="order.html">PINEAPPLE SMOOTHIE</a>
+                </div>
+                <!-- price -->
+                <a href="order.html" class="price">$6.50</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- smoothie-item-4 -->
+          <li class="item-d">
+            <!-- box slider -->
+            <div class="slider-container">
+              <!-- image box -->
+              <div class="slide-img">
+                <img src="images/smoothielist/4.png" alt="GRAPE SMOOTHIE" />
+                <!-- overlay -->
+                <div class="overlay-menu">
+                  <!-- buy-btn -->
+                  <a href="order.html" class="buy-btn">ADD TO CART</a>
+                </div>
+              </div>
+              <!-- detail box -->
+              <div class="detail-box">
+                <!-- type -->
+                <div class="type">
+                  <a href="order.html">GRAPE SMOOTHIE</a>
+                </div>
+                <!-- price -->
+                <a href="order.html" class="price">$6.50</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- smoothie-item-5 -->
+          <li class="item-e">
+            <!-- box slider -->
+            <div class="slider-container">
+              <!-- image box -->
+              <div class="slide-img">
+                <img
+                  src="images/smoothielist/5.png"
+                  alt="VELVETY CHOCOLATE RASPBERRY"
+                />
+                <!-- overlay -->
+                <div class="overlay-menu">
+                  <!-- buy-btn -->
+                  <a href="order.html" class="buy-btn">ADD TO CART</a>
+                </div>
+              </div>
+              <!-- detail box -->
+              <div class="detail-box">
+                <!-- type -->
+                <div class="type">
+                  <a href="order.html">VELVETY CHOCOLATE RASPBERRY</a>
+                </div>
+                <!-- price -->
+                <a href="order.html" class="price">$6.50</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <img src="images/sweetlifeicecreamlogofooter.png" alt="Sweet Life Logo" />
+
+      <p><i class="fa-solid fa-location-dot"></i></p>
+      <p>80 Duy Tan</p>
+      <p>02 Duong Khue</p>
+
+      <br />
+
+      <div id="link-footer">
+        <ul>
+          <li>
+            <a href="order.html"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a href="order.html"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <br />
+      <p id="copyright">&copy; 2023 Sweet Life. All rights reserved.</p>
+      <br />
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        loop: true,
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      AOS.init();
+    </script>
+  </body>
+</html>

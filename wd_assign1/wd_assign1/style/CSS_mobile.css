@@ -1,0 +1,457 @@
+/*
+	filename: assignment1
+	author: Nguyen Manh Dung
+	created: 28/02/2023
+	lastmodified: 4/3/2023
+*/
+@media screen and (max-width:1024px) {
+
+    /* ======================== GENERAL */
+    #maintimetable img {
+        height: 100px;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    header img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    header h1,
+    nav {
+        text-align: center;
+    }
+
+    body {
+        background: #B1D0E0;
+    }
+
+    hr {
+        border-color: #256D85;
+        margin: 25px;
+    }
+
+    h2 {
+        text-align: center;
+        color: #000000;
+    }
+
+    /* PAGE OVERALL PADDING, MARGIN */
+    main {
+        margin: 15px;
+        padding: 15px
+    }
+
+    .row {
+        margin: 15px;
+    }
+
+    /* HORIZONAL NAVIGATION BAR */
+    .horizontal-nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: #406882;
+    }
+
+    .horizontal-nav li a {
+        display: block;
+        color: #000000;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+
+    /* Change the link color on hover */
+    .horizontal-nav li a:hover {
+        background-color: #F4EEEC;
+        color: #000000;
+    }
+
+    /* BUTTON (ABOUT, GALLERY) */
+    .divbutton {
+        color: #000000;
+        float: right
+    }
+
+    .divbutton:hover {
+        transform: scale(1.2);
+    }
+
+
+    /* LINK WITHOUT UNDERLINES */
+    a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    /* MAIN PAGE COLOURS */
+    #mainhome {
+        background-image: linear-gradient(#B1D0E0, #256D85);
+        border-radius: 40px;
+    }
+
+    #mainabout {
+        background-image: linear-gradient(#B1D0E0, #256D85);
+        border-radius: 40px;
+    }
+
+    #mainhometown {
+        background-image: linear-gradient(#B1D0E0, #256D85);
+        border-radius: 40px;
+    }
+
+    #maincontact {
+        background-image: linear-gradient(#B1D0E0, #256D85);
+        border-radius: 40px;
+    }
+
+    /* IMAGE HOVER ZOOM */
+    #maingallery img:hover {
+        transform: scale(1.2);
+    }
+
+    #mainhome img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* FOOTER */
+    footer a {
+        color: #000000;
+    }
+
+    footer i:hover {
+        color: #999B84;
+    }
+
+    footer {
+        margin: 15px;
+        padding: 15px;
+        background-color: #256D85;
+        border-radius: 40px;
+        text-align: center;
+    }
+
+    footer i {
+        color: #000000;
+        font-size: 1.5em;
+    }
+
+    /* FONTS */
+    * {
+        font-family: Verdana, sans-serif;
+        font-size: large;
+    }
+
+    .horizontal-nav {
+        text-transform: uppercase;
+    }
+
+    #welcome {
+        color: #000000;
+    }
+
+    /* ======================================================================== */
+    /* ======================== 1. HOMEPAGE */
+    #mainhome img {
+        height: auto;
+        width: 35%;
+    }
+
+
+    /* ======================================================================== */
+    /* ======================== 2. ABOUT */
+    .left img {
+        padding: 15px;
+    }
+
+    /* FIT IMAGE */
+    .row img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    /* ASIDE IMAGE */
+    aside img {
+        width: 90%;
+        height: 100%;
+        padding: 10px;
+        border: solid #000;
+        border-radius: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 15px 0 0
+    }
+
+    /* ABOUT DIV CARD */
+    .card {
+        border: solid #000000;
+        border-radius: 35px;
+        padding: 15px;
+        background-color: #B1D0E0;
+    }
+
+    .card:hover {
+        background-color: #77ACF1;
+        color: #000000;
+    }
+
+    .card:hover h3 {
+        color: #000000;
+    }
+
+    /* CLICK LINK TO HIGHTLIGHT ELEMENTS */
+    h3:target {
+        border: 2px solid #000000;
+        background-color: #256D85;
+        border-radius: 10px;
+    }
+
+    #about-nav a:active {
+        border: 2px solid #999B84;
+        background-color: #999B84;
+        border-radius: 10px;
+        color: white
+    }
+
+    /* ABOUT CARD A HOVER */
+    .card a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    /* ABOUT SUBNAV */
+    #about-nav {
+        list-style-type: none;
+    }
+
+    #about-nav a:hover {
+        text-decoration: underline;
+    }
+
+
+    /* FIT IMAGES */
+    .hometowncard img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    /* OTHER */
+    .card h3 {
+        color: #000000
+    }
+
+    /* ======================================================================== */
+    /* ======================== 3. HOMETOWN */
+    .hometownbox h3 {
+        text-align: center;
+    }
+
+    .hometownbox i {
+        font-size: 2em;
+    }
+
+    /* MAINHOMETOWN DIV PADDING*/
+    #mainhometown div {
+        padding: 25px;
+        margin: 10px;
+    }
+
+    /* DIV HOMETOWN BLOCKS FLOAT */
+    .hometownbox {
+        justify-content: center;
+    }
+
+    .hometowncard {
+        border: solid #000000;
+        border-radius: 35px;
+        background-color: #77ACF1;
+        width: 80%;
+        height: auto;
+    }
+
+    /* FIT IMAGES */
+    .hometowncard img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+
+    /* ======================================================================== */
+    /* ======================== 5. GALLERY */
+    /* GALLERY DIV */
+    .gallery img {
+        margin: 15px;
+        padding: 15px;
+        width: 90%;
+        height: auto
+    }
+
+    /* ======================================================================== */
+    /* ======================== 6. TIMETABLE */
+    /* TABLE */
+    tr:nth-child(even) {
+        background-color: #256D85;
+    }
+
+    table {
+        text-align: center;
+        table-layout: auto;
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px black solid;
+    }
+
+    table td,
+    th {
+        width: 100%;
+        border: 1px black solid;
+        padding: 10px;
+    }
+
+    td:hover {
+        background-color: #6998AB;
+    }
+
+
+    /* ======================================================================== */
+    /* ======================== 7. CONTACT */
+    /* FIELDSET BORDER */
+    fieldset {
+        border-style: dashed;
+        border-color: #000000;
+        border-radius: 40px;
+    }
+
+    #tbName {
+        border-style: dotted;
+        border-radius: 10px;
+    }
+
+    #tbEmail {
+        border-style: dotted;
+        border-radius: 10px;
+    }
+
+    textarea {
+        border-style: double;
+        border-radius: 10px;
+    }
+
+    /* CONTACT A HOVER */
+    .contact-ul a:hover {
+        color: #443C68;
+        text-decoration: underline;
+    }
+
+    /* RESET, SUBMIT INPUT (BUTTON) */
+    .inputbutton {
+        border: solid #443C68;
+        border-radius: 25px;
+        background: #443C68;
+        color: white;
+        float: left;
+        margin: 15px;
+    }
+
+    .inputbutton:hover {
+        cursor: pointer;
+        border-color: #443C68;
+        background-color: transparent;
+        color: #443C68;
+        transform: scale(1.2);
+    }
+
+    /* OTHER */
+    .contact-ul li {
+        list-style-type: none;
+    }
+
+
+    /* ======================================================================== */
+    /* ======================== CSS ANIMATION */
+/*------------------------------ moving background------------------------------ */
+    @keyframes bgchange {
+    0%  {background-color:  #B3E5FC;}
+	10% {background-color: #8BBBD5;}
+    20% {background-color: #5D8AA8;}
+    30% {background-color: #0077BE;}
+    40% {background-color: #1E90FF;}
+    50% {background-color:  #0288D1;}
+    60% {background-color: #5D8AA8;}
+    70%  {background-color:  #0077BE;}
+    80%  {background-color: #8BBBD5;}
+    100%   {background-color: #B3E5FC;}
+}
+    body{
+    animation-name: bgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+/*------------------------------ personal image css------------------------------ */
+ /* Animation styles for the personal image */
+ .personal_image_container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .personal_image {
+    width: 350px;
+    height: 500px;
+    margin-top: -15px;
+    margin-left: -13px;
+    animation: pulse 2s ease-in-out infinite;
+    transition: filter 0.2s ease-in-out;
+    filter: blur(0px);
+  }
+/* The animation will stop when you hover it*/
+  .personal_image:hover {
+    animation-play-state: paused; /* only works outside infomation p */
+  }
+  
+  .personal_image_info {
+    color: #ffffff;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+ 
+  /* Animation keyframes for the personal image */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  /* Styles for the personal image on hover */
+  .personal_image_container:hover .personal_image {
+    filter: blur(10px);
+  }
+
+  .personal_image_container:hover .personal_image_info {
+    opacity: 1;
+  }
+}
