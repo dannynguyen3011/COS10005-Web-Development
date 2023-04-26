@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Web development" />
+	<meta name="keywords" content="HTML (Part 1 – Content - Form)" />
+	<meta name="author" content="s104181789- Nguyen Manh Dung" />
+	<title>Web Development Survey</title>
+</head>   
+<style>
+    p{
+   font-size: 25px;
+   }
+   input{
+   font-size: 15px;
+   }
+   legend{
+    font-size: 25px;
+   }
+</style>
+
+<body>
+	<!-- Page 4 -->
+    <img src="logo.png" alt="Swinburne University Logo" width="200" height="100">
+    <fieldset><legend><important>Page 4 </important></legend>
+	<form id="survey" method="post" action="http://mercury.swin.edu.au/it000000/cos10005/surveytest.php">
+
+		<p>How do you rate the lecture materials?<br />
+			<input type="radio" name="Lecture" value="Excellent" />Excellent
+			<input type="radio" name="Lecture" value="Good" />Good
+			<input type="radio" name="Lecture" value="Fair" />Fair
+			<input type="radio" name="Lecture" value="Poor" />Poor
+		</p>
+
+		<p>How do you rate the lab materials?<br />
+			<input type="radio" name="Lab" value="Excellent" />Excellent
+			<input type="radio" name="Lab" value="Good" />Good
+			<input type="radio" name="Lab" value="Fair" />Fair
+			<input type="radio" name="Lab" value="Poor" />Poor
+		</p>
+
+		<a href="Page3.html">Previous</a>
+		<a href="Page5.html">Next</a>
+	<!-- End of Survey -->
+    </fieldset>	
+	</form>
+    <p>
+			<input type="submit" value="Submit" />
+			<input type="reset" value="Reset" />
+		</p>
+	
+</body>
+</html>
